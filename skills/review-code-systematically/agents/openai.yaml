@@ -1,0 +1,4 @@
+interface:
+  display_name: "系统化代码审查"
+  short_description: "沿真实调用链审查正确性、安全、兼容、性能和运行风险"
+  default_prompt: "使用 $review-code-systematically 审查这次代码改动，优先报告有真实触发条件和影响的 findings，并说明未验证范围与合并判断。"
