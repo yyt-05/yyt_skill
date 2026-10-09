@@ -1,0 +1,12 @@
+schedule:
+  - name: Daily skill repository check
+    cron: "0 9 * * *"
+    timezone: Asia/Shanghai
+    runtime: codex
+    prompt: |
+      检查当前 Skill 仓库，输出一份简短的中文检查报告：
+      1. 总结最近 24 小时的提交；若没有新提交，明确说明。
+      2. 检查 README.md 中的 Skill 链接是否指向存在的 SKILL.md。
+      3. 检查 Skill 索引是否有遗漏，并指出文档中的明显问题。
+      对发现的问题给出文件路径和建议。
+      只读取和分析，不修改文件，不提交或推送代码，不创建 Issue 或 PR。
