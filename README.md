@@ -1,6 +1,6 @@
 # yyt_skill
 
-这个仓库用于收集和维护可复用的 AI Agent Skills。
+这个仓库用于收集与维护可复用的 AI Agent Skills。
 
 ## Skills
 
